@@ -25,11 +25,12 @@ Você deverá criar uma página de listagem de produtos, que irá conter:
 
 ## Tecnologias:
 
-* Se achar necessário, você poderá utilizar o jQuery
-* Com exceção do jQuery, você não poderá utilizar outras bibliotecas e/ou frameworks
+* Você deverá utilizar JavaScript >= ES6 e compilar para ES5 (utilize a tool que achar melhor)
+* Você deverá utilizar SASS e compilar para CSS (utilize a tool que achar melhor)
+* Não é permitido utilizar bibliotecas e/ou frameworks JavaScripts (jQuery, React, etc)
 * Não é permito utilizar Frameworks UI (Bootstrap, Foundation, etc)
 * Se achar necessário, você poderá utilizar tools de compilação e etc
-* Scss, Stylus, Gulpfile, Webpack, Template Engines e etc são permitidos
+* Gulp, Webpack, Template Engines e etc são permitidos
 
 --
 
