@@ -28,7 +28,7 @@ Você deverá criar uma página de listagem de produtos, que irá conter:
 * Se achar necessário, você poderá utilizar o jQuery
 * Com exceção do jQuery, você não poderá utilizar outras bibliotecas e/ou frameworks
 * Não é permito utilizar Frameworks UI (Bootstrap, Foundation, etc)
-* Se achar necessário, você poderá utilizar tools de compilação e etc
+* Se achar necessário, você poderá utilizar tools de compilação
 * Scss, Stylus, Gulp, Webpack, Template Engines e etc são permitidos
 
 --
