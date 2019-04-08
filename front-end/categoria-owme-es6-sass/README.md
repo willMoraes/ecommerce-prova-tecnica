@@ -29,7 +29,7 @@ Você deverá criar uma página de listagem de produtos, que irá conter:
 * Você deverá utilizar SASS e compilar para CSS (utilize a tool que achar melhor)
 * Não é permitido utilizar bibliotecas e/ou frameworks JavaScripts (jQuery, React, etc)
 * Não é permito utilizar Frameworks UI (Bootstrap, Foundation, etc)
-* Se achar necessário, você poderá utilizar tools de compilação e etc
+* Se achar necessário, você poderá utilizar tools de compilação
 * Gulp, Webpack, Template Engines e etc são permitidos
 
 --
