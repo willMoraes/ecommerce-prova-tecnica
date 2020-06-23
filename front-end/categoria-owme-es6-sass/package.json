@@ -1,0 +1,52 @@
+{
+    "name": "eccomerce-prova-tecnica",
+    "version": "1.0.0",
+    "author": "William Moraes <william.ms.moraes@gmail.com>",
+    "description": "Eccomerce prova tecnica",
+    "homepage": "https://www.linkedin.com/in/william-moraes-a8b63980/",
+    "private": true,
+    "license": "WTFPL",
+    "scripts": {
+        "start": "node server.js",
+        "heroku-postbuild": "webpack -p",
+        "dev": "webpack-dev-server --mode development --open",
+        "build": "webpack --mode development",
+        "dist": "webpack --mode production",
+        "watch": "webpack --watch --mode development"
+    },
+    "engines": {
+        "node": ">= 0.12.0",
+        "npm": ">=2.1.5"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.10.3",
+        "@babel/preset-env": "^7.10.3",
+        "autoprefixer": "^9.8.2",
+        "babel-loader": "^8.1.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "copy-webpack-plugin": "^5.1.1",
+        "css-loader": "^3.6.0",
+        "file-loader": "^4.3.0",
+        "html-beautify-webpack-plugin": "^1.0.5",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "img-loader": "^3.0.1",
+        "mini-css-extract-plugin": "^0.7.0",
+        "node-sass": "^4.14.1",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^7.3.1",
+        "terser-webpack-plugin": "^1.4.4",
+        "url-loader": "^2.3.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "browserslist": [
+        "last 2 versions"
+    ]
+}

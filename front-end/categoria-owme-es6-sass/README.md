@@ -1,37 +1,42 @@
-# Prova Técnica para Front-End
+# Eccomerce prova tecnica
 
-Olá, se você esta lendo isso é porque se candidatou para alguma vaga front-end na Arezzo.
+## Resumo do projeto
 
-## Vamos ao teste
+Esse projeto foi desenvolvido com ES6, SASS e HTML. Para o Bundle foi utilizado o Webpack 4. 
 
-Você deverá criar uma página de listagem de produtos, que irá conter:
+O projeto constitui-se de uma página de listagem de produtos que contem:
 
-* Menu
-* Listagem de produtos (busca da listagem através de XHR)
-* Paginação a cada 20 produtos
-* Um "filtro" de ordenação
-  * Maior valor
-  * Menor valor
-  * Nome A-Z
-  * Nome Z-A
- 
-## Arquivos de disponibilização para a prova:
+- Menu
+- Listagem de produtos ( Busca as informações do proprio JSON do projeto principal no github ) 
+- Paginação a cada 20 produtos
+- Um "filtro" de ordenação:
+    - Maior valor
+    - Menor valor
+    - Nome A-Z
+    - Nome Z-A
 
-* [mock-products.json](mock-products.json): Arquivo que irá conter toda a listagem de produtos para a população do mesmo
-* [desktop.png](desktop.png): Layout de como deve ser implementado a versão desktop da página
-* [mobile.png](mobile.png): Layout de como deve ser implementado a versão mobile da página
-* [mobile-menu.png](mobile-menu.png): Layout de como deve ser implementado o menu expandido na versão mobile
+A lógica que escolhi para esse projeto é muito próxima ao Observer Pattern. Nesse caso existe um componente State ( Subject ) que notifica todas suas alterações aos componentes que tem interesse nessas informações ( Observers ).
 
+[Veja a demo aqui](https://eccomerce-prova-tecnica.herokuapp.com/)
 
-## Tecnologias:
+---
 
-* Você deverá utilizar JavaScript >= ES6 e compilar para ES5 (utilize a tool que achar melhor)
-* Você deverá utilizar SASS e compilar para CSS (utilize a tool que achar melhor)
-* Não é permitido utilizar bibliotecas e/ou frameworks JavaScripts (jQuery, React, etc)
-* Não é permito utilizar Frameworks UI (Bootstrap, Foundation, etc)
-* Se achar necessário, você poderá utilizar tools de compilação
-* Gulp, Webpack, Template Engines e etc são permitidos
+## Setup do projeto
 
---
+Instalar as dependencias do projeto
 
-Faça seu melhor código, boa sorte :)
+```bash
+npm install
+```
+
+Criar um servidor local para desenvolvimento
+
+```bash
+npm run dev
+```
+
+Gerar o build
+
+```bash
+npm run build
+```

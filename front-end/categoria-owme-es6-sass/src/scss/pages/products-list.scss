@@ -1,0 +1,123 @@
+.category-container {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.category-title {
+    margin: 0;
+    color: $gray-dark;
+    font-size: $font-size-h1;
+    margin: 0 3rem;
+    text-transform: uppercase;
+}
+
+.select-filter {
+    width: 200px;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 2px solid #eee;
+    color: #333;
+    font-size: 13px;
+    padding: 5px 30px 5px 10px;
+    margin: 0 3rem;
+}
+
+.products-list-container {
+    padding: 0;
+}
+
+.products-list__ul {
+    padding: 0;
+    margin: 0;
+}
+
+.products-list__li {
+    position: relative;
+    margin: 10px 0;
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0 0 1rem 0;
+}
+
+.product-item {
+    position: relative;
+    padding: 1.5rem;
+    transition: box-shadow .5s;
+    color: $gray;
+
+    a {
+        background: transparent;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    &:hover {
+        box-shadow: 0 5px 15px 0 #ccc;
+    }
+}
+
+.product-item__thumb {
+    margin-bottom: 1rem;
+
+    img {
+        width: 100%;
+    }
+}
+
+.product-item__info {
+    margin: 0;
+    text-align: center;
+}
+
+.product-item__title {
+    font-size: $font-size-h3;
+    margin: 0 0 .5rem 0;
+}
+
+.product-item__price {
+    margin: 0 0 1rem 0;
+    font-size: $font-size-large;
+}
+
+@media only screen and (max-width: $break-large) {
+    .products-list__li {
+        width: 33.33%;
+    }
+}
+
+@media only screen and (max-width: $break-medium) {
+    .category-title {
+        margin: 0;
+    }
+
+    .select-filter {
+        margin: 0 0 0 2rem;
+    }
+
+    .products-list__li {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: $break-small) {
+    .category-title {
+        font-size: $font-size-h2;
+    }
+
+    .select-filter {
+        width: 180px;
+    }
+
+    .products-list__li {
+        width: 50%;
+        padding: 0;
+    }
+}
